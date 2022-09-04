@@ -48,7 +48,7 @@ export default function Home() {
           </h1>
 
           <h2>
-            Hey thanks for stopping by. We are busy cooking an App for one brand and didn't have time to finish this site. Hope to see you in the future! When we populate this place.
+            Hey thanks for stopping by. We are busy cooking an App for one brand and didn&apos;t have time to finish this site. Hope to see you in the future! When we populate this place.
           </h2>
         </div>
         <footer className={styles.footer}>
