@@ -1,0 +1,46 @@
+{
+  "name": "itbite.dev",
+  "author": "ensar.bavrk",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky install",
+    "make-it-pretty": "prettier --write 'src/**/*.{js,jsx,css,scss,json,md}'",
+    "pre-commit": "lint-staged"
+  },
+  "dependencies": {
+    "@mdx-js/loader": "^2.1.0",
+    "@mdx-js/react": "^2.1.1",
+    "@next/mdx": "^12.1.2",
+    "classnames": "^2.3.1",
+    "glob": "^7.2.0",
+    "gray-matter": "^4.0.3",
+    "next": "12.0.10",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "reading-time": "^1.5.0",
+    "remark-html": "^15.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "eslint": "8.9.0",
+    "eslint-config-next": "12.0.10",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": ">=6",
+    "lint-staged": ">=10",
+    "postcss": "^8.4.6",
+    "prettier": "2.5.1",
+    "sass": "^1.49.9",
+    "tailwindcss": "^3.0.22"
+  },
+  "lint-staged": {
+    "src/**/*.{js, jsx, css,md, scss}": [
+      "eslint --cache --fix",
+      "npm run make-it-pretty",
+      "git add"
+    ]
+  }
+}

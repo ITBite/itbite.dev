@@ -1,0 +1,7 @@
+.command {
+  @apply flex justify-center items-center;
+}
+
+.active {
+  @apply text-primary;
+}

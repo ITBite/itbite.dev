@@ -1,0 +1,29 @@
+.icon {
+  path {
+    @apply fill-text;
+  }
+  &:hover path {
+    @apply fill-primary;
+  }
+}
+
+.gray-icon {
+  path {
+    @apply fill-gray-500;
+  }
+}
+
+.iconStroke {
+  path,
+  circle,
+  rect {
+    @apply stroke-text;
+  }
+  &:hover {
+    path,
+    circle,
+    rect {
+      @apply stroke-primary;
+    }
+  }
+}

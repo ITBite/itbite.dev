@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply light text-text;
+}
+
+.dark {
+  --color-bg-primary: #313131;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #edf2f7;
+  --color-text-accent: #00516A;
+  --color-text-accent-secondary: #44BEE3;
+}
+
+.light {
+  --color-bg-primary: #fff;
+  --color-text-primary: #000000;
+  --color-text-secondary: #464646;
+  --color-text-accent: #00516A;
+  --color-text-accent-secondary: #00516A;
+}
+
+@layer {
+  @font-face {
+    font-family: 'Quattrocento Sans';
+    src: url('/fonts/Quattrocento Sans.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+}
+
+#__next {
+  @apply h-full flex flex-1 justify-center bg-bgPrimary;
+}
+
+.fixed-list {
+  position: absolute;
+  top: 63px;
+  width: 100%;
+}
