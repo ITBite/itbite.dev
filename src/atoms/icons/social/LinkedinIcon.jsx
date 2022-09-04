@@ -13,7 +13,7 @@ export const LinkedinIcon = ({
       width={width}
       height={height}
       viewBox="0 0 256 256"
-      className={styles.iconStroke}
+      className={styles.linkedinIcon}
       {...props}>
       <rect
         x={36}

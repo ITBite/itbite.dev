@@ -47,19 +47,25 @@ export default function Home() {
             We build products for entrepreneurs, inventors, and brands.
           </h1>
 
-          <h2>
-            Hey thanks for stopping by. We are busy cooking an App for one brand and didn&apos;t have time to finish this site. Hope to see you in the future! When we populate this place.
-          </h2>
+          <p className={styles.wipText}>
+            Hey thanks for stopping by. We are busy cooking an App for one brand
+            and didn&apos;t have time to finish this site. Hope to see you in
+            the future! When we populate this place.
+          </p>
         </div>
         <footer className={styles.footer}>
-          <p>Follow us on social media to know more</p>
-          <div className={styles.socialMediaContainer}>
-            <LinkedinIcon />
-            <FacebookIcon />
-            <TwitterIcon />
-          </div>
           <h3>Build on the Bitten side of an apple.</h3>
-
+          <div className={styles.socialMediaContainer}>
+            <a href="https://www.linkedin.com/company/itbitedev/">
+              <LinkedinIcon width={28} height={28} />
+            </a>
+            <a href="https://www.facebook.com/itbite.dev">
+              <FacebookIcon  width={28} height={28} />
+            </a>
+            <a href="https://twitter.com/itbitedev">
+              <TwitterIcon  width={28} height={28} />
+            </a>
+          </div>
         </footer>
       </section>
     </>

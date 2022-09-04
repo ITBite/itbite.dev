@@ -1,8 +1,10 @@
 .icon {
-  path {
+  path,
+  circle {
     @apply fill-text;
   }
-  &:hover path {
+  &:hover path,
+  circle {
     @apply fill-primary;
   }
 }
@@ -24,6 +26,25 @@
     circle,
     rect {
       @apply stroke-primary;
+    }
+  }
+}
+
+.linkedinIcon {
+  path,
+  rect {
+    @apply stroke-text;
+  }
+  circle {
+    @apply fill-text;
+  }
+  &:hover {
+    path,
+    rect {
+      @apply stroke-primary;
+    }
+    circle {
+      @apply fill-primary;
     }
   }
 }
