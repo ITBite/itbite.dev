@@ -1,10 +1,26 @@
+@use '../templates/globalVariables' as v;
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   @apply light text-text;
+  --local-font-sm: 1rem;
+  --local-font-md: 1.5rem;
+  --local-font-lg: 2rem;
+  --local-font-xl: 4rem;
 }
+
+@media screen and (max-width: 650px) {
+  :root {
+    --local-font-sm: .7rem;
+    --local-font-md: 1rem;
+    --local-font-lg: 1.5rem;
+    --local-font-xl: 2.2rem;
+  }
+}
+
 
 .dark {
   --color-bg-primary: #313131;

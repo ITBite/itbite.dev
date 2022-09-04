@@ -48,20 +48,20 @@ export default function Home() {
           </h1>
 
           <h2>
-            We are still preparing this site. Hope to see you in the future!
+            Hey thanks for stopping by. We are busy cooking an App for one brand and didn't have time to finish this site. Hope to see you in the future! When we populate this place.
           </h2>
+        </div>
+        <footer className={styles.footer}>
           <p>Follow us on social media to know more</p>
           <div className={styles.socialMediaContainer}>
             <LinkedinIcon />
             <FacebookIcon />
             <TwitterIcon />
           </div>
-        </div>
-      </section>
+          <h3>Build on the Bitten side of an apple.</h3>
 
-      <footer className={styles.footer}>
-        <h3>Build on the Bitten side of an apple.</h3>
-      </footer>
+        </footer>
+      </section>
     </>
   );
 }

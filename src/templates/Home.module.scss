@@ -1,20 +1,23 @@
+
+
 .page {
   display: flex;
   flex: 1;
   min-height: 80%;
   flex-direction: column;
+  margin: 0 2rem;
 }
 
 .header {
   display: flex;
   align-items: center;
-  font-size: 1rem;
+  font-size: var(--local-font-sm);
   justify-content: space-between;
 
- .headerLogo {
-   display: flex;
-   align-items: center;
- }
+  .headerLogo {
+    display: flex;
+    align-items: center;
+  }
 
   span {
     color: var(--color-text-accent-secondary);
@@ -28,7 +31,7 @@
   flex: 1;
 
   .heroTitle {
-    font-size: 4rem;
+    font-size: var(--local-font-xl);
     line-height: 1;
     margin-bottom: 6rem;
   }
@@ -36,26 +39,39 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    margin-bottom: 1rem;
 
     p {
-      color: var(--color-text-accent-secondary);
-      font-size: 2rem;
+      font-weight: bold;
+      font-size: var(--local-font-md);
     }
+  }
+  p {
+    font-size: var(--local-font-sm);
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: var(--local-font-sm);
     margin-bottom: 1rem;
+    width: 60ch;
   }
 
-  .socialMediaContainer{
-    display: flex;
-  }
 }
 
 .footer {
+  margin-bottom: 1rem;
   h3 {
+
+
+  }
+  p{
     color: var(--color-text-accent-secondary);
-    margin-bottom: 1rem;
+    font-size: var(--local-font-md);
+
+  }
+
+  .socialMediaContainer {
+    display: flex;
+    margin-bottom: 1.5rem;
   }
 }
