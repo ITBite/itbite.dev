@@ -33,7 +33,7 @@
   .heroTitle {
     font-size: var(--local-font-xl);
     line-height: 1;
-    margin-bottom: 6rem;
+    margin-bottom: var(--local-font-xl);
   }
   .subHeading {
     display: flex;
@@ -53,7 +53,7 @@
   h2 {
     font-size: var(--local-font-sm);
     margin-bottom: 1rem;
-    width: 60ch;
+    max-width: 60ch;
   }
 
 }

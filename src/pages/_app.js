@@ -1,4 +1,4 @@
-import '../templates/globals.scss';
+import '../templates/globals.css';
 import { PageTemplate } from '../templates/PageTemplate';
 import { DarkModeInitializerScript, useDarkMode } from '@/lib/useDarkMode';
 

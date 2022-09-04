@@ -1,4 +1,3 @@
-@use '../templates/globalVariables' as v;
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
