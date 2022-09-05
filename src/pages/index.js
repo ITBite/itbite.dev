@@ -54,16 +54,16 @@ export default function Home() {
           </p>
         </div>
         <footer className={styles.footer}>
-          <h3>Build on the Bitten side of an apple.</h3>
+          <h3>Built on the bitten side of an apple.</h3>
           <div className={styles.socialMediaContainer}>
             <a href="https://www.linkedin.com/company/itbitedev/">
               <LinkedinIcon width={28} height={28} />
             </a>
             <a href="https://www.facebook.com/itbite.dev">
-              <FacebookIcon  width={28} height={28} />
+              <FacebookIcon width={28} height={28} />
             </a>
             <a href="https://twitter.com/itbitedev">
-              <TwitterIcon  width={28} height={28} />
+              <TwitterIcon width={28} height={28} />
             </a>
           </div>
         </footer>
