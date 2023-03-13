@@ -1,3 +1,3 @@
 export const Config = {
-    isHeaderReady: false
-}
+  isHeaderReady: false,
+};

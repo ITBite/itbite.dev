@@ -41,16 +41,17 @@ export default function Home() {
         <div className={styles.heroContainer}>
           <div className={styles.subHeading}>
             <LineIcon isDarkMode={isDarkMode} />
-            <p>Digital product studio.</p>
+            <p>Empowering Your Digital Vision.</p>
           </div>
           <h1 className={styles.heroTitle}>
             We build products for entrepreneurs, inventors, and brands.
           </h1>
 
           <p className={styles.wipText}>
-            Hey thanks for stopping by. We are busy cooking an App for one brand
-            and didn&apos;t have time to finish this site. Hope to see you in
-            the future! When we populate this place.
+            Thanks for stopping by our software agency website! We're currently
+            in the midst of building an app for one of our clients, but we can't
+            wait to show off our past projects and capabilities on this site.
+            Keep an eye on this site for updates!
           </p>
         </div>
         <footer className={styles.footer}>
