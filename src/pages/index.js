@@ -55,7 +55,7 @@ export default function Home() {
           </p>
         </div>
         <footer className={styles.footer}>
-          <h3>Built on the bitten side of an apple.</h3>
+          <p>Built on the bitten side of an apple.</p>
           <div className={styles.socialMediaContainer}>
             <a href="https://www.linkedin.com/company/itbitedev/">
               <LinkedinIcon width={28} height={28} />
